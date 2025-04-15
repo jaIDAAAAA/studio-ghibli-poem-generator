@@ -1,7 +1,9 @@
 body {
-    background-color: #a8e6cf;
-    font-family: fantasy;
-.a {
+background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    font-family:  "Nunito", sans-serif;
+   
+}
+    .a {
     color: #ffaaa5;
 }
 .container {
@@ -17,7 +19,7 @@ h1 {
     font-weight: 600;
     font-size: 40px;
     line-height: 2;
-    color: brown;
+    color: #723f0d;
 
 }
 
@@ -36,11 +38,11 @@ h1 {
     font-size: 16px;
     border-radius: 50px;
     line-height: 20px;
-    color: #ffd3b6;
+    color: #feffc8;
 
 }
 .submit-button {
-    margin-left: 10px;
+    margin-right: 10px;
     background-color: #ffaaa5;
     color: white;
     border: none;
@@ -48,13 +50,15 @@ h1 {
     font-size: 16px;
     border-radius: 50px;
     padding: 14px 24px;
+    display: flex;
 }
 .poem {
     font-size: 14px;
-    background-color: #fff;
+    background-color: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);;
     padding: 20px;
     line-height: 24px;
-    border-left: 3px solid #fdffab;
+    border-left: 3px solid #ffd3b6;
+    border-right: 3px solid #ffd3b6;
     border-radius: 10px;
     box-shadow: 0px 4px 30px 0 px rgba(65,50,100,0.08);
 }
