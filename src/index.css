@@ -1,0 +1,67 @@
+body {
+    background-color: #a8e6cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a {
+    color: #ffaaa5;
+}
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+}
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 2;
+    color: brown;
+
+}
+
+.form {
+    padding: 30px;
+    background-color: #fdffab;
+    box-shadow: 0px 20px 60px rgba(65,50,100,0.08);
+    border-radius: 10px;
+    display: flex;
+}
+
+.prompt {
+    padding: 16px;
+    border: 1px solid rgba(red, green, blue, alpha);
+    width: 80%;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+    color: #ffd3b6;
+
+}
+.submit-button {
+    margin-left: 10px;
+    background-color: #ffaaa5;
+    color: white;
+    border: none;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 14px 24px;
+}
+.poem {
+    font-size: 14px;
+    background-color: #fff;
+    padding: 20px;
+    line-height: 24px;
+    border-left: 3px solid #fdffab;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0 px rgba(65,50,100,0.08);
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
