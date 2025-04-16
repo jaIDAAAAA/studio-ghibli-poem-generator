@@ -1,6 +1,6 @@
 body {
 background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-    font-family:  "Nunito", sans-serif;
+font-family:  "Nunito", sans-serif;
    
 }
     .a {
@@ -26,7 +26,7 @@ h1 {
 .form {
     padding: 30px;
     background-color: #fdffab;
-    box-shadow: 0px 20px 60px rgba(65,50,100,0.08);
+    
     border-radius: 10px;
     display: flex;
 }
@@ -60,7 +60,7 @@ h1 {
     border-left: 3px solid #ffd3b6;
     border-right: 3px solid #ffd3b6;
     border-radius: 10px;
-    box-shadow: 0px 4px 30px 0 px rgba(65,50,100,0.08);
+   
 }
 
 .footer {
