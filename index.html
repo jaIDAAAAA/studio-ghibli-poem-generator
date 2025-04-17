@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="src/index.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 		<title>Studio Ghibli Poem Generator</title>
@@ -15,7 +16,7 @@
 			<h1>Welcome to the AI Studio Ghibli Poem Generator</h1>
 		</header>
 		<main>
-			<form action="">
+			<form id="poem-generator">
 				<input
 					type="text"
 					placeholder="enter topic of Studio Ghibli poem"
@@ -27,10 +28,8 @@
 					/>
 				<input type="submit" class="submit-button"/>
 			</form>
-			<div class="poem">
-				The poem will go here
-				<br />
-				The poem will go here
+			<div class="poem" id="poem">
+				
 			</div>
 		</main>
 
