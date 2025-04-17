@@ -22,6 +22,10 @@ h1 {
     color: #723f0d;
 
 }
+.poem-generator {
+    display: flex;
+
+}
 
 .form {
     padding: 30px;
