@@ -19,21 +19,25 @@ h1 {
     font-weight: 600;
     font-size: 40px;
     line-height: 2;
-    color: #723f0d;
+    color: black;
 
 }
-.poem-generator {
-    display: flex;
-
-}
-
-.form {
-    padding: 30px;
-    background-color: #fdffab;
+.container {
+    padding: 60px;
+    background: #FFFFFF;
+    font-family: "Nunito", sans-serif;
+    border-radius: 50px;
     
-    border-radius: 10px;
-    display: flex;
 }
+
+form {
+    padding: 30px;
+    display: flex;
+    width: 100%;
+}
+
+
+
 
 .prompt {
     padding: 16px;
@@ -45,6 +49,7 @@ h1 {
     color: #feffc8;
 
 }
+
 .submit-button {
     margin-right: 10px;
     background-color: #ffaaa5;
