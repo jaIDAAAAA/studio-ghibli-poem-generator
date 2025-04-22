@@ -18,6 +18,11 @@ function makePoem(event) {
 
 	let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+	let poemFormElement = document.querySelector("#poem");
+	poemFormElement.classList.remove("hide");
+	poemFormElement.innerHTML =
+		"Creating a whimsy poem for you $(instructionsInput.value)";
+
 	console.log("Making poem");
 	console.log(`Prompt: ${prompt}`);
 	console.log(`Context: ${context}`);

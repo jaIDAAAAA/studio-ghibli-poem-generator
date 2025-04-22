@@ -20,7 +20,12 @@ h1 {
     font-size: 40px;
     line-height: 2;
     color: black;
-
+}
+.hint {
+    line-height: 1.5;
+    margin-top: 5px;
+    opacity: 0.6;
+    font-size: 12px;
 }
 .container {
     padding: 60px;
@@ -68,6 +73,9 @@ form {
     border-right: 3px solid turquoise;
     border-radius: 10px;
    
+}
+.poem-hide {
+    display: none;
 }
 
 .footer {
