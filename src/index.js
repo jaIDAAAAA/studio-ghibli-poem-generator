@@ -20,7 +20,7 @@ function makePoem(event) {
 
 	let poemFormElement = document.querySelector("#poem");
 	poemFormElement.classList.remove("hide");
-	poemFormElement.innerHTML = `<div class = "blink"> Creating a whimsy poem for you $(instructionsInput.value)</div>`;
+	poemFormElement.innerHTML = `<div class = "blink"> Creating a whimsy poem for you ${instructionsInput.value}</div>`;
 
 	axios.get(apiUrl).then(showPoem);
 }
